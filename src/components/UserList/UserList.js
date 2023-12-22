@@ -5,7 +5,7 @@ import "./userlist.css";
 const UserList = ({ usersList }) => {
   return (
     <div className="list-wrapper">
-      <ol className="users-list" role="list">
+      <ol className="users-list">
         {usersList.map((user) => {
           return (
             <li key={user.id}>

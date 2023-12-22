@@ -13,7 +13,7 @@ const UserCard = (props) => {
           <span className="avatar">
             <FaUser size={30} />
           </span>
-          <a href="#" onClick={(e) => e.stopPropagation()}>
+          <a href={username} onClick={(e) => e.stopPropagation()}>
             @{username}
           </a>
           <p>{name}</p>

@@ -1,5 +1,5 @@
 import React from "react";
-import "./notification-box.css";
+import "./notification.css";
 
 const Notification = ({ message, variant }) => {
   let textColor;
