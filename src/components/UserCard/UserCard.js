@@ -4,7 +4,7 @@ import UserDetailModal from "../DetailModal/DetailModal";
 import { FaUser } from "../../icons";
 
 const UserCard = (props) => {
-  const { name, email, company, phone, username } = props;
+  const { name, username } = props;
   const [isModalOpen, setIsModalOpen] = useState(false);
   return (
     <>
