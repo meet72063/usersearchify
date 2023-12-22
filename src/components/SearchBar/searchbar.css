@@ -1,0 +1,42 @@
+.searchbar {
+  margin-inline: auto;
+  border-radius: 2rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(113, 114, 116, 0.15) 0px 2px 4px 1px;
+  height: 2.5rem;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.search-logo {
+  margin-right: 10px;
+}
+
+.search-input {
+  height: 100%;
+  border: none;
+  outline: none;
+  flex: 1;
+}
+
+@media (min-width: 900px) {
+  .users-list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+  }
+
+  .searchbar {
+    width: 40%;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 899px) {
+  .users-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+  .searchbar {
+    width: 60%;
+  }
+}

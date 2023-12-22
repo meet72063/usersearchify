@@ -1,0 +1,17 @@
+.wrapper {
+  margin-top: 4rem;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+}
+
+.message {
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-inline: auto;
+  margin-block: auto;
+  font-size: larger;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 300;
+}
